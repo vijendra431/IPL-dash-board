@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.teams-container {
+  background-color: #475569;
+  border-color: #475569;
+  border-width: 1px;
+  border-style: solid;
+
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  height: 17vw;
+  width: 42vw;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.team-images {
+  height: 15vh;
+  width: 16vw;
+}
+.team-name {
+  color: #ffffff;
+  font-family: Bree Serif;
+}
+@media screen and (max-width: 576px) {
+  .teams-container {
+    width: 38vw;
+    height: 16vh;
+  }
+  .team-name {
+    font-size: 10px;
+  }
+
+  .team-images {
+    height: 50px;
+    width: 60px;
+    margin-right: 6px;
+  }
+}

@@ -1,0 +1,82 @@
+.latest-match-container {
+  display: flex;
+}
+.latest-match-container2 {
+  display: flex;
+
+  background-color: #0f172a;
+  border-radius: 10px;
+  color: white;
+  font-family: Bree Serif;
+  padding: 40px;
+  width: 82vw;
+  gap: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.teams-logo {
+  height: 20vh;
+  width: 20vw;
+}
+.date {
+  padding-top: 20px;
+}
+.result {
+  padding-top: 20px;
+}
+.first-second-part {
+  display: flex;
+}
+.line {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .team-name {
+    font-size: 14px;
+  }
+  .date {
+    font-size: 12px;
+  }
+  .venue {
+    font-size: 10px;
+  }
+  .result {
+    font-size: 10px;
+  }
+  .first {
+    font-size: 14px;
+  }
+  .second {
+    font-size: 14px;
+  }
+  .main {
+    font-size: 14px;
+  }
+  .man {
+    font-size: 14px;
+  }
+  .para {
+    font-size: 10px;
+  }
+  .latest-match-container2 {
+    display: flex;
+
+    flex-direction: column;
+    padding: 10px;
+  }
+  .first-second-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .third-part {
+    padding-right: 100px;
+  }
+  .line {
+    display: block;
+    border-style: solid;
+    width: 80vw;
+  }
+}
